@@ -1,3 +1,16 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import {
+  CameraViewerComponent,
+} from './components/camera-viewer/camera-viewer.component';
+import { authResolver } from './resolvers/auth.resolver';
+
+export const routes: Routes = [
+  {
+    path: '',
+    component: CameraViewerComponent,
+    resolve: {
+      userSessionId: authResolver,
+    },
+  },
+];
