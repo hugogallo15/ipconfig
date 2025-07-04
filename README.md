@@ -2,7 +2,7 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
 
-## Development server
+## Thank You IpConfig!!
 
 This was a fun little project. Thanks for your consideration!
 
